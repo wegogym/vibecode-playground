@@ -25,7 +25,7 @@ export default function CharacterDisplay({ mood = 'neutral', fatePoints, fateGoa
         <img
           src="/assets/yuno.jpg"
           alt="Yuno"
-          className="yuno-character"
+          className="yuno-portrait"
         />
       </motion.div>
 
