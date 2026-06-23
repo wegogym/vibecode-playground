@@ -293,7 +293,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 240px;
+  height: 280px;
 }
 
 .yuno-glow-ring {
@@ -314,9 +314,9 @@
 }
 
 .yuno-silhouette svg {
-  height: 220px;
+  height: 260px;
   width: auto;
-  filter: drop-shadow(0 0 12px #ff6b9d66);
+  filter: drop-shadow(0 0 16px #d860b866);
 }
 
 /* Fate HUD overlay */
