@@ -279,44 +279,16 @@
   justify-content: center;
 }
 
-.yuno-img {
-  height: 260px;
-  width: auto;
+.yuno-character {
+  width: 50%;
+  max-width: 45vw;
+  max-height: 430px;
   object-fit: contain;
-  object-position: bottom;
-  filter: drop-shadow(0 0 20px #ff6b9d44);
-}
-
-/* SVG placeholder */
-.yuno-placeholder {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  height: 280px;
-}
-
-.yuno-glow-ring {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120px; height: 120px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #ff6b9d22, transparent 70%);
-  animation: orb-pulse 3s infinite;
-}
-
-.yuno-glow-ring--2 {
-  width: 180px; height: 180px;
-  animation-delay: 1.5s;
-  opacity: 0.5;
-}
-
-.yuno-silhouette svg {
-  height: 260px;
-  width: auto;
-  filter: drop-shadow(0 0 16px #d860b866);
+  object-position: center bottom;
+  display: block;
+  /* lift her slightly so upper body overlaps above the fate bar */
+  margin-bottom: -20px;
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.55));
 }
 
 /* Fate HUD overlay */
